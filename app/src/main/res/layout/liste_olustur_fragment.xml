@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvlisteOlustur"
+            android:layout_width="match_parent"
+            android:layout_height="500sp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGer"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="5sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/onceki_sayifaya_don_button"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+
+                android:shadowRadius="5"
+                android:text="Geriye Dön"
+                android:textColor="#ffffff"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnCSVDosyaExport"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginRight="25sp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/csv_file_donustur"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+
+                android:text="CSV'ya Dönüştür"
+                android:textColor="#ffffff"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

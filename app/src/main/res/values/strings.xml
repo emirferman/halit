@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BarCodeKirGaz</string>
+    <string name="title_activity_bar_kodkirgaz">Bar Kod Okuma</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">KırGaz Şantiye Uygulaması</string>
+    <string name="nav_header_subtitle">KirGaz Bilgi işlemleri V 1.0 2019</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_barcod">Yeni Malzeme Kaydı Oluştur</string>
+    <string name="menu_bilgisayra_gonder">Sorgulama İşlemleri</string>
+    <string name="menu_cikis">Çıkış Yap</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_barkod_oku"
+            android:icon="@drawable/barcode_okumasi"
+            android:title="@string/menu_barcod" />
+        <item
+            android:id="@+id/nav_liste_olustur"
+            android:icon="@drawable/listele_button"
+            android:title="Liste Oluştur" />
+        <item
+            android:id="@+id/nav_bilgisayra_gonder"
+            android:icon="@drawable/bilgisayra_gonder2"
+            android:title="@string/menu_bilgisayra_gonder" />
+
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_tools" />-->
+    </group>
+
+    <item android:title="Diğer İşlemleri">
+        <menu>
+            <!--<item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />-->
+            <item
+                android:id="@+id/nav_sifreAdmin"
+                android:icon="@drawable/sifreyi_degistir"
+                android:title="Şifremi Değiştir" />
+            <item
+                android:id="@+id/nav_cikis"
+                android:icon="@drawable/cekis_menu"
+                android:title="@string/menu_cikis" />
+        </menu>
+    </item>
+
+</menu>
